@@ -1,0 +1,31 @@
+# --------------------- Frontend ignores ---------------------
+
+# Logs
+logs
+*.log
+./FRONTEND/npm-debug.log*
+./FRONTEND/yarn-debug.log*
+./FRONTEND/yarn-error.log*
+./FRONTEND/pnpm-debug.log*
+./FRONTEND/lerna-debug.log*
+
+./FRONTEND/node_modules
+./FRONTEND/dist
+./FRONTEND/dist-ssr
+./FRONTEND/*.local
+
+# Editor directories and files
+./FRONTEND/.vscode/*
+./FRONTEND/.vscode/extensions.json
+./FRONTEND/.idea
+./FRONTEND/.prettierrc
+./FRONTEND/.DS_Store
+./FRONTEND/*.suo
+./FRONTEND/*.ntvs*
+./FRONTEND/*.njsproj
+./FRONTEND/*.sln
+./FRONTEND/*.sw?
+
+# --------------------- Backend ignores ---------------------
+./BACKEND/ROOT
+./BACKEND/PROJECT/Others.md
